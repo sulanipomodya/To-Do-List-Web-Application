@@ -1,0 +1,27 @@
+/* Custom background & typography */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+/* Card container shadow and rounding */
+.todo-card {
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Completed task styling */
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #6c757d;
+    opacity: 0.7;
+}
+
+/* Transition for smooth list interaction */
+.task-item {
+    transition: all 0.25s ease-in-out;
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+}
